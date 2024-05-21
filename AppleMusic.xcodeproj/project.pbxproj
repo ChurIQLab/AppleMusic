@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0FF3475E2BF72DBF002AFC38 /* AppleMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3475D2BF72DBF002AFC38 /* AppleMusicApp.swift */; };
-		0FF347602BF72DBF002AFC38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3475F2BF72DBF002AFC38 /* ContentView.swift */; };
 		0FF347622BF72DC0002AFC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF347612BF72DC0002AFC38 /* Assets.xcassets */; };
 		0FF347652BF72DC0002AFC38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF347642BF72DC0002AFC38 /* Preview Assets.xcassets */; };
+		0FF347702BF72F34002AFC38 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3476F2BF72F34002AFC38 /* LibraryView.swift */; };
+		0FF347EF2BFA3DC2002AFC38 /* MediaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF347EE2BFA3DC2002AFC38 /* MediaTabView.swift */; };
+		0FF347F22BFA4CD4002AFC38 /* LibraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF347F12BFA4CD4002AFC38 /* LibraryModel.swift */; };
+		0FF347F42BFA4FC9002AFC38 /* LibraryCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF347F32BFA4FC9002AFC38 /* LibraryCategoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FF3475A2BF72DBF002AFC38 /* AppleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF3475D2BF72DBF002AFC38 /* AppleMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicApp.swift; sourceTree = "<group>"; };
-		0FF3475F2BF72DBF002AFC38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FF347612BF72DC0002AFC38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FF347642BF72DC0002AFC38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FF3476F2BF72F34002AFC38 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		0FF347EE2BFA3DC2002AFC38 /* MediaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTabView.swift; sourceTree = "<group>"; };
+		0FF347F12BFA4CD4002AFC38 /* LibraryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryModel.swift; sourceTree = "<group>"; };
+		0FF347F32BFA4FC9002AFC38 /* LibraryCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCategoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			children = (
 				0FF3476B2BF72E1F002AFC38 /* App */,
 				0FF3476C2BF72E3A002AFC38 /* View */,
+				0FF347F02BFA4CC1002AFC38 /* Model */,
 				0FF347612BF72DC0002AFC38 /* Assets.xcassets */,
 				0FF347632BF72DC0002AFC38 /* Preview Content */,
 			);
@@ -78,9 +85,19 @@
 		0FF3476C2BF72E3A002AFC38 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0FF3475F2BF72DBF002AFC38 /* ContentView.swift */,
+				0FF3476F2BF72F34002AFC38 /* LibraryView.swift */,
+				0FF347EE2BFA3DC2002AFC38 /* MediaTabView.swift */,
+				0FF347F32BFA4FC9002AFC38 /* LibraryCategoriesView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0FF347F02BFA4CC1002AFC38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FF347F12BFA4CD4002AFC38 /* LibraryModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF347602BF72DBF002AFC38 /* ContentView.swift in Sources */,
+				0FF347702BF72F34002AFC38 /* LibraryView.swift in Sources */,
+				0FF347EF2BFA3DC2002AFC38 /* MediaTabView.swift in Sources */,
 				0FF3475E2BF72DBF002AFC38 /* AppleMusicApp.swift in Sources */,
+				0FF347F42BFA4FC9002AFC38 /* LibraryCategoriesView.swift in Sources */,
+				0FF347F22BFA4CD4002AFC38 /* LibraryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
